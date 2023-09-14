@@ -114,9 +114,6 @@ body{
 }
 
 /*De aca en adelante, comienza el main*/ /*Pagina Principal*/
-.publicidad img{
-    width: 100%;
-}
 h1{
     font-size: 30px;
     padding: 20px;
