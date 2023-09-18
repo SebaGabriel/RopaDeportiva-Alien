@@ -94,9 +94,9 @@ body{
 
 /*Esta parte seria menu2*/
 .menu2{
-    padding: 5px;
+    padding: 6px;
     list-style: none;
-    text-align: left;
+    text-align: center;
 }
 .menu2 li{
     display: inline-block;
