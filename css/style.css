@@ -103,14 +103,84 @@ body{
     text-align: center;
 }
 .menu2 li a{
-    padding: 5px;
+    padding: 5px 16px;
     color: #ffffff;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.4s ease;
 }
 .menu2 li a:hover{
     color: #000000;
     background-color: #ffffff;
+}
+/*.wrapper{
+    position: relative;
+    padding: 0 30px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 15px;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+.nav-links li a:hover{
+    background-color: #3664f4;
+}*/
+.mega-box{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+}
+.nav-links li:hover .mega-box{
+    transition: all 0.7s;
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+.contenit{
+    background-color: #070d1f;
+    border: 10px;
+    padding: 25px 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.mayni{
+    width: 25%;
+    line-height: 45px;
+}
+.mayni h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mega-links li a{
+    padding: 0 25px;
+    margin-bottom: 8px;
+    color: #d9d9d9;
+    font-size: 16px;
+    display: inline-block;
+    width: 80%;
 }
 
 /*De aca en adelante, comienza el main*/ /*Pagina Principal*/
