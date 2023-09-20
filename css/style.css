@@ -148,18 +148,18 @@ img{
     font-size: 20px;
     color: #ffffff;
 }
-.mega-box .content{
+.mega-box .contenti{
     background-color: #414755;
     padding: 25px 100px;
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
-.main{
+.mayni{
     width: 26%;
     line-height: 32px;
 }
-.main h2{
+.mayni h2{
     color: #ffffff;
     font-size: 18px;
     font-weight: bold;
@@ -430,24 +430,24 @@ article.card{
         overflow: hidden;
         transition: all 0.3s ease;
     }
-    .mega-box .content{
+    .mega-box .contenti{
         background-color: #414755;
         flex-direction: column;
         padding: 18px 15px 0 15px;
     }
-    .mega-box .content .main{
+    .mega-box .contenti .mayni{
         width: 100%;
         margin-bottom: 12px;
         border-top: 1px solid rgba(255, 255, 255, 0.08);
     }
-    .content .main .mega-links{
+    .contenti .mayni .mega-links{
         border-left: opx;
         padding-left: 6px;
     }
-    .main .mega-links li{
+    .mayni .mega-links li{
         margin: 0;
     }
-    .content .main h2{
+    .contenti .mayni h2{
         font-size: 20px;
     }
 
