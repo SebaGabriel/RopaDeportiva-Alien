@@ -262,6 +262,14 @@ article.card{
 /*Acordion*/
 
 /*Caja Producto*/
+section{
+    padding: 1em;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
 .producto{
     max-width: 280px;
     display: flex;
