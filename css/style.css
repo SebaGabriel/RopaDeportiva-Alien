@@ -191,11 +191,11 @@ img{
 .contenedoor {  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 4px;
+    grid-template-rows: 0.4fr 1.1fr 1.1fr 1.1fr 1.1fr;
+    gap: 0px 6px;
     grid-auto-flow: row;
     grid-template-areas:
+    "Aside Title Title Title"
     "Aside Producto1 Producto2 Producto3"
     "Aside Producto4 Producto5 Producto6"
     "Aside Producto7 Producto8 Producto9"
@@ -203,6 +203,9 @@ img{
 }
 .Aside { 
     grid-area: Aside; 
+}
+.Title { 
+    grid-area: Title; 
 }
 .Producto1 { 
     grid-area: Producto1; 
@@ -245,11 +248,11 @@ img{
 h1{
     font-size: 30px;
     padding: 20px;
-    margin-left: 15px;
+    margin: 20px auto;
 }
-/*section{
+section{
     display: flex;
-}*/
+}
 .card-wrap{
     display: flex;
     flex-flow: wrap;
@@ -313,6 +316,10 @@ article.card{
 }
 
 /*Acordion*/
+.acor{
+    width: 400px;
+    margin: 2rem;
+}
 
 /*Caja Producto*/
 section{
